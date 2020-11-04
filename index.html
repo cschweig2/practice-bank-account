@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Bank Accounts</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="jumbotron">First Bank of Epicodus</h1>
+    <div class="row">
+      <div class="col-6">
+        <form id="newAccount">
+          <label for="name">Please enter the name for your new account</label>
+          <input id="name" class="form-control" type="text" required>
+          <label for="deposit">Please enter the starting deposit</label>
+          <input id="deposit" class="form-control" type="number" required>
+          <button class="submit">submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <form id ="deposit">
+          <label for="addition">Deposit Amount</label>
+          <input id="addition" class="form-control" type="number" required>
+          <button class="submit">submit</button>
+        </form>
+      </div>
+      <div class="col-6">
+        <form id="withdrawal">
+          <label for="withdraw">Withdrawal Amount</label>
+          <input id="withdraw" class="form-control" type="number" required>
+          <button class="submit">submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <h2>Account Balance</h2>
+        <div id="totalBalance">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
